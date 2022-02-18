@@ -14,3 +14,10 @@ func TestNormalTest(t *testing.T) {
 func TestBasicApproval(t *testing.T) {
 	approvals.VerifyString(t, "Hello Approvals")
 }
+
+func TestJsonApproval(t *testing.T) {
+	person := Person{
+		"John Galt", 100,
+	}
+	approvals.VerifyJSONStruct(t, person)
+}
