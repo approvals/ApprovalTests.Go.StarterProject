@@ -1,0 +1,15 @@
+File Names
+
+
+[john,10] => john_10.txt
+[john,20] => john_20.txt
+[john,30] => john_30.txt
+[john,40] => john_40.txt
+[paul,10] => paul_10.txt
+[paul,20] => paul_20.txt
+[paul,30] => paul_30.txt
+[paul,40] => paul_40.txt
+[mary,10] => mary_10.txt
+[mary,20] => mary_20.txt
+[mary,30] => mary_30.txt
+[mary,40] => mary_40.txt
