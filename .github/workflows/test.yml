@@ -21,8 +21,6 @@ jobs:
       with:
         go-version: stable
     
-    - name: Build
-      run: go build -v ./...
-    
-    - name: test
-      run: go test ./... -race -coverprofile=coverage.txt -covermode=atomic
+    - name: Build and Test
+      run: ./run_tests.sh
+      shell: bash
